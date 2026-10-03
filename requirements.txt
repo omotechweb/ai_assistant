@@ -1,0 +1,15 @@
+# Windows AI Assistant - dependencies
+# Install with:  pip install -r requirements.txt
+
+# GUI
+PyQt6>=6.4
+
+# OpenAI API (the code uses the v1+ client: from openai import OpenAI)
+openai>=1.0
+
+# Speech-to-text (microphone input via Google Speech Recognition)
+SpeechRecognition>=3.10
+PyAudio>=0.2.13
+
+# Text-to-speech (also installs pywin32 / comtypes on Windows)
+pyttsx3>=2.90
